@@ -447,10 +447,6 @@ console.log(rect1);
 
 
 
-
-
-
-
 const integer_list = [1, 1, 2 ,3 ,1 ,2 ,3 ,4];
 const values_list = [1, 3];
 
@@ -464,11 +460,10 @@ Array.prototype._removeEl = function (sourseArr, removableItems) {
 
 let l = new Array();
 
+
 console.group('Codewars');
 console.log(l._removeEl(integer_list, values_list));
 console.groupEnd('Codewars');
-
-
 
 
 
