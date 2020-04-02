@@ -448,22 +448,26 @@ console.log(rect1);
 
 
 
-// const integer_list = [1, 1, 2 ,3 ,1 ,2 ,3 ,4];
-// const values_list = [1, 3];
+const integer_list = [1, 1, 2 ,3 ,1 ,2 ,3 ,4];
+const values_list = [1, 3];
 
-// Array.prototype._removeEl = function (sourseArr, removableItems) {
+Array.prototype._removeEl = function (sourseArr, removableItems) {
 
-//     let resArr = sourseArr.filter((elem2) => {
-//         return !removableItems.includes(elem2);
-//     });
-//     return resArr;
-// };
+    let resArr = sourseArr.filter((elem2) => {
+        return !removableItems.includes(elem2);
+    });
+    return resArr;
+};
 
-// let l = new Array();
-
-
-// console.group('Codewars');
-// console.log(l._removeEl(integer_list, values_list));
-// console.groupEnd('Codewars');
+let l = new Array();
 
 
+console.group('Codewars');
+console.log(l._removeEl(integer_list, values_list));
+console.groupEnd('Codewars');
+
+<<<<<<< HEAD
+=======
+// 2 апреля, команды Git
+
+>>>>>>> 682b75d8e19a750e52b4847a3be89abc4e6e73b1
