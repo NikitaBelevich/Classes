@@ -466,5 +466,4 @@ console.group('Codewars');
 console.log(l._removeEl(integer_list, values_list));
 console.groupEnd('Codewars');
 
-// 2 апреля, команды Git
 
